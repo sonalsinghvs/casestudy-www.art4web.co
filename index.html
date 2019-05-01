@@ -10,6 +10,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900|Tinos:400i" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -27,6 +28,8 @@
     
     
     <!--side menu!-->
+    
+    <section class="side-menu">
   <a class="logo" href="https://www.art4web.co">
     
  
@@ -77,6 +80,8 @@
     <nav class="fourth-nav">
     <a href="#">Get A quote</a>
     </nav>    
+        
+</section>
     
     <!--end of side menu!-->
     
@@ -87,9 +92,9 @@
     <section class="about_work">
         
     <article class="digital_goodies">
-        <img src="https://www.art4web.co/images/home-bubble-min.svg" alt="home bubble image">
-      <h2>Digital goodies</h2>  
-        <p> we create unique and perfectly crafted websites,apps and brand designs.</p>
+        
+      <h1 class="dig">Digital goodies</h1>  
+        <p class="description"> we create unique and perfectly crafted<br/>websites,apps and brand designs.</p>
         
       </article>
         
@@ -107,30 +112,46 @@
         
         <div class="left-col">
         
-        <h1>Delicious masterpieces</h1>
-        <a href="https://www.art4web.co/projects">Show all projects</a>
-        
-        <a class="hair-video" href="https://www.art4web.co/projects/bloomhair">
+        <h2>Delicious masterpieces</h2>
+        <a href="https://www.art4web.co/projects" class="show">Show all projects</a>
+            
+            
+        <div class="project-1">
        
-        <video autoplay loop muted playsinline>
-        <source src="https://www.art4web.co/storage/references/11/XjmzzvUf1lqqfB.mp4" type="video/mp4">
-            </video></a>
+        <a class="hair-video" href="https://www.art4web.co/projects/bloomhair">
         
+        <video class="hair-video" width="600" height="600" autoplay loop muted playsinline>
+        <source src="video/hair.mp4" type="video/mp4">
         
-        <h2>Bloom Hair</h2>
+            
+            
+            </video>
+        
+        <h3>Bloom Hair</h3>
         <p>Creating an eCommerce experience with style</p>
+            
+            </a></div><!--ending project-1!-->
+            
+        <div class="project-2">
         
         <a href="https://www.art4web.co/projects/ostrolucky"><img src="img/handcrafted-tables.jpeg" alt="handcrafted table image"></a>
             
-        <a href="https://www.art4web.co/projects/ostrolucky"><h2>Ostrolucky</h2>
+        <a href="https://www.art4web.co/projects/ostrolucky"><h3>Ostrolucky</h3>
             <p>Branding and Website designed by Nature</p></a>
+        </div><!--ending project-2!-->
         
         </div><!--ending left col-->
         
         <div class="right-col">
-            <a href="https://www.art4web.co/projects/doxxbet-apps"><img src="img/mobile-phone.png" alt="phone application image"> <h2> DoxxBet - Apps</h2><p>Sports Betting User Experience. Redesigned.</p></a>
-        
-            <a href="https://www.art4web.co/projects/cern-ais"><img src="img/ais.jpeg" alt="ais logo image"><h2> AIS - CERN</h2><p>Evolving a brand identity for AIS Group at CERN</p></a>
+            
+            <div class="project-3">
+            <a href="https://www.art4web.co/projects/doxxbet-apps"><img src="img/mobile-phone.png" alt="phone application image"> <h3> DoxxBet - Apps</h3><p>Sports Betting User Experience. Redesigned.</p></a>
+                </div><!--ending project-3!-->
+            
+            
+            <div class="project-4">
+            <a href="https://www.art4web.co/projects/cern-ais"><img src="img/ais.jpeg" alt="ais logo image"><h3> AIS - CERN</h3><p>Evolving a brand identity for AIS Group at CERN</p></a>
+                </div><!--ending project-4!-->
             
             <p>,,The result met our visions and expectations and we are very satisfied with the both aesthetics and functionality of our revamped website."</p>
             
@@ -139,7 +160,7 @@
 
         <a href="https://www.art4web.co/projects" class="button">Explore more work</a>
         
-        </article>
+        </article><!--ending article masterpieces!-->
         </section>
         
         <!--ending section about-work!-->
@@ -148,7 +169,7 @@
         
        <section class="more-work-links">
            <nav class="col-1">
-           <h3>Oh, Yes.</h3>
+           <h2>Oh, Yes.</h2>
            <p>Creative treats that tickle our taste buds</p>
            <a href="https://www.art4web.co/services"> Discover our services</a>
                </nav><!--ending col-1!-->
@@ -193,7 +214,7 @@
         <!--Juicy Brands section!-->
         
         <section class="juicy-brands">
-        <h3>Juicy Brands</h3>
+        <h2>Juicy Brands</h2>
         <p>Showcasing everyone who let us spruce up their projects</p>
             <nav class="brand-column-1">
             <a href="https://www.bata.com/">Bata</a>
@@ -212,6 +233,44 @@
              </nav>
             
         </section><!--ending section juicy brands!-->
+    
+    <section class="contact">
+    <p>Your cup of tea?</p>
+        <h2>Let's start</h2>
+        <a href="#">hello@art4web.com</a>
+        <a href="#">Get a quote</a>
+        <a href="#">+421 902 468 085</a>
+        
+        
+    <span class="bottom-nav">
+        
+    <a href="http://behance.net/art4web" target="_blank">
+        <i class="fab fa-behance"></i></a> 
+    <a href="http://dribbble.com/art4web" target="_blank">
+        <i class="fab fa-dribbble"></i> </a>
+    <a href="http://facebook.com/art4web/" target="_blank">
+        <i class="fab fa-facebook-f"></i></a>
+     <a href="http://instagram.com/art4web/" target="_blank">
+         <i class="fab fa-instagram"></i></a>
+     <a href="https://twitter.com/art4websk" target="_blank">
+         <i class="fab fa-twitter"></i></a>
+     <a href="https://twitter.com/art4websk" target="_blank">
+         <i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/1396386/" target="_blank">
+<i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://vimeo.com/user9042219"><i class="fab fa-vimeo-v"></i></a>
+        
+    </span>
+    
+    </section>
+    
+    <footer>
+        <h2>"Think more to create less."</h2>
+        <p>© 2019 The JOY, s.r.o. All Rights Reserved. Sladkovicova 202/36, 972 01 Bojnice, Slovakia (European Union)
+By using this website, you agree to the use of cookies.</p>
+    
+    </footer>
         
      
            
