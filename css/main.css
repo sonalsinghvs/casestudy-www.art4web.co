@@ -345,6 +345,21 @@ h3 {
     
 }
 
+/*End of about-work Section*/
+
+/*Blue section*/
+
+.blue-section{
+    background-image:url(../img/things-bk.jpg);
+    background-repeat:no-repeat;
+    height:650px;
+    padding:0;
+    margin:0;
+    background-size:100% auto;
+}
+
+
+
 /*End of Projects Section*/
 
 
