@@ -136,13 +136,14 @@ h2{
 }
 
 h3{
-    color:40px;
+    font-size:1em;
+    color:#111111;
     text-decoration:none;
     
 }
 
-a{
-    text-decoration:none:
+a {
+    text-decoration:none;
 }
 
 
@@ -213,6 +214,9 @@ p.description{
     display:block;
     margin-left:auto;
     margin-right:auto;
+    line-height:.75em;
+    
+    
 }
 
 .right-col{
@@ -228,6 +232,7 @@ p.description{
 .project-1{
     background-color:white;
     
+    
 }
 
 .show{
@@ -239,11 +244,17 @@ p.description{
     padding-top:100px;
 }
 
-
+.project-2{
+    
+}
 
 .project-2 img{
     width:480px;
     height:480px;
+}
+
+.right-col{
+   margin-top:100px;
 }
 
 .left-col h2{
@@ -257,18 +268,43 @@ p.description{
       clear: both;
 }
 
-.quote-mark{
-    padding-left:25px;
+h3 {
+    padding-left:30px;
+    padding-top:30px;
+    
+    text-decoration:none;
+    font-family:'Roboto', sans-serif;
+    
+    }
+
+.mas-p{
+    padding-left:30px;
+    padding-bottom:30px;
+    font-size:.75em;
+    font-family:'Tinos', serif;
+    color:#A9A9A9;
+    
+}
+
+.quote{
+    padding-left:40px;
+}
+
+.quote-mark {
+    
     width:90px;
+    transform:translateX(-20%);
     
 }
 
 .quotation{
     font-family:'Roboto', sans-serif;
-    font-size:1.5em;
-    line-height: 1.75em;
-    width:360px;
+    font-size:1.25em;
+    line-height: 1.5em;
+    width:345px;
+    padding-bottom:20px;
 }
+
 .quote a{
     color:#a6c017;
     font-family:sans-serif;
@@ -277,6 +313,37 @@ p.description{
     text-decoration:none;
 }
 
+.written-by {
+    font-size:.75em;
+}
+
+.more-work-link {
+    position:relative;
+    display:block;
+    width:100%;
+    height:300px;
+}
+
+#rectangle {
+    width:220px;
+    height:80px;
+    background-color: transparent;
+  border: 2px solid #A9A9A9;
+  border-radius: 50px;
+    text-align:center;
+    position:absolute;
+    top:90px;
+    left:50%;
+    transform:translateX(-60%);
+    
+}
+
+.explore{
+    padding-top:14px;
+    font-family: 'Roboto', sans-serif;
+    color:#586375;
+    
+}
 
 /*End of Projects Section*/
 
