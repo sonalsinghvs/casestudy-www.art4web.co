@@ -135,6 +135,23 @@ h2{
     
 }
 
+h3{
+    color:40px;
+    text-decoration:none;
+    
+}
+
+a{
+    text-decoration:none:
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 .dig{
     position:relative;
     top:500px;
@@ -190,28 +207,12 @@ p.description{
     
 }
 
-.masterpieces{
-    position:relative;
-}
 
-h2 {
-    display:inline-block;
-    width:200px;
-    top:150px;
-    left:280px;
-    position:absolute;
-    
-}
-.show{
-    position:absolute;
-    top:270px;
-    left:280px;
-    text-decoration:none;
-    color:#a6c017;
-    font-family:sans-serif;
-    border-bottom: 1px solid #a6c017;
-    padding-bottom: 1em;
-    
+.masterpieces{
+    max-width:1000px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .right-col{
@@ -224,69 +225,64 @@ h2 {
     float:left;
 }
 
-
-video{
-    
-}
-
 .project-1{
-    position:absolute;
-    top:400px;
-    left:280px;
-    background-color:#ffff;
+    background-color:white;
     
 }
 
-h3{
-    padding-left:40px;
-    color:#111111;
-    font-family:'Roboto', sans-serif;
-    text-decoration: none;
-    
-}
-    
-.masterpieces p{
-    padding-left:40px;
+.show{
     text-decoration:none;
-    
-    
+    color:#a6c017;
+}
+
+.project-1 video{
+    padding-top:100px;
 }
 
 
-.project-2{
-    position:absolute;
-    top:1150px;
-    left:280px;
-    background-color:#ffff;
-    
+
+.project-2 img{
+    width:480px;
+    height:480px;
 }
+
+.left-col h2{
+    width:150px;
+    padding-top:150px
+}
+
 .masterpieces:after{
      content: "";
       display: table;
       clear: both;
 }
-a{
-    text-decoration:none:
-}
 
-.right-col{
-    position:relative;
-}
-
-.project-3{
-    position:absolute;
-    top:100px;
-    left:80px;
-    background-color:#ffff;
+.quote-mark{
+    padding-left:25px;
+    width:90px;
     
 }
 
-.project-4{
-    position:absolute;
-    top:800px;
-    left:80px;
-    
+.quotation{
+    font-family:'Roboto', sans-serif;
+    font-size:1.5em;
+    line-height: 1.75em;
+    width:360px;
 }
+.quote a{
+    color:#a6c017;
+    font-family:sans-serif;
+    border-bottom: 1px solid #a6c017;
+    padding-bottom: 1em;
+    text-decoration:none;
+}
+
+
+/*End of Projects Section*/
+
+
+
+
  /* ==========================================================================
    Helper classes
    ========================================================================== */
