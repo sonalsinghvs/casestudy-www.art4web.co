@@ -465,6 +465,7 @@ ul {
     margin-left:130px;
     margin-top:20px;
 }
+
 .juicy{
     float:left;
 }
@@ -501,7 +502,7 @@ ul {
     transform: translateX(65%);
 }
 
-.main-nav .close-icon{
+.side-menu .close-icon{
     font-size:2em;
     position:absolute;
     top:3em;
