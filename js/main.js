@@ -1,5 +1,5 @@
 var navButton = document.querySelector(".bar-4");
-var closeButton = document.querySelector(".side-menu");
+var closeButton = document.querySelector(".close-icon");
 
 var menu = document.querySelector(".side-menu");
 var body = document.querySelector("body");
