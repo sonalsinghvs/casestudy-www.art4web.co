@@ -484,6 +484,7 @@ ul {
     
 }
 
+
 .nav-open .side-menu{
     display:block;
     position:absolute;
@@ -491,12 +492,22 @@ ul {
     left:0;
     width:65%;
     min-height: 100%;
+    background-color:#ffffff;
     
     
 }
 
 .nav-open .page-content{
     transform: translateX(65%);
+}
+
+.main-nav .close-icon{
+    font-size:2em;
+    position:absolute;
+    top:3em;
+    right:3em;
+    line-height:0.75em;
+    cursor:pointer;
 }
 
  /* ==========================================================================
