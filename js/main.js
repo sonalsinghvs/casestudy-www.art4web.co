@@ -1,18 +1,16 @@
-var navButton = document.querySelector('.bar-4');
-navButton.addEventListener('click', function() 
-{ console.log('clicky!!!');
- document.querySelector('body')
- .classList
- .toggle('nav-open');
-});                       
- 
-var closeButton = 
-    document.querySelector('.close-icon');
+var navButton = document.querySelector(".bar-4");
+var closeButton = document.querySelector(".side-menu");
 
-closeButton.addEventListener('click', function() {
-  console.log('close it!');
-  document.querySelector('body')
- .classList
- .toggle('nav-open');
-} );
+var menu = document.querySelector(".side-menu");
+var body = document.querySelector("body");
 
+navButton.addEventListener("click", function() {console.log("clicky!!!");
+menu.style.display ="block";
+body.style.overflow ="hidden";
+ });
+
+closeButton.addEventListener("click", function() {
+    console.log("close it!");
+    menu.style.display = "none";
+    body.style.overflow = "auto";
+});
