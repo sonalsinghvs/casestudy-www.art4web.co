@@ -540,7 +540,7 @@ ul {
 .contact .univ-phone{
     position:absolute;
     top:380px;
-    left:800px;
+    left:72%;
     font-size:.5em;
     padding-bottom:.5em;
     font-family:'Roboto', sans-serif;
@@ -550,7 +550,7 @@ ul {
 .contact .prague{
     position:absolute;
     top:430px;
-    left:800px;
+    left:72%;
     font-size:.35em;
 }
 .contact .divider{
@@ -568,7 +568,7 @@ ul {
 .contact .bottom-nav{
     position:absolute;
     top:38em;
-    left:25em;
+    left:41%;
     font-size:1em;
        
 }
@@ -598,7 +598,9 @@ footer{
 
 footer h2{
     padding-top:110px;
-    font-size:1.75em;;
+    padding-left:50px;
+    font-size:1.75em;
+    
     
 }
 
@@ -617,17 +619,11 @@ footer p{
     padding-top:200px;
     font-size:0.75em;
     width:450px;
-    left:340px;
+    left:38%;
 }
 
 
-/*Nav-open*/
-
-.nav-open{
-    overflow:hidden;
-    
-}
-
+/*Side-menu*/
 
 
 .close-icon{
@@ -671,6 +667,78 @@ footer p{
 }
 
 
+/*Hover effct*/
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/*Hover effct*/
+
 .second-nav{
     position:absolute;
     top:9.5em;
@@ -680,31 +748,48 @@ footer p{
     color:#bdd42d;
 }
 
+.side-menu .hello a:link{
+    color:#ffff;   
+}
 
-a:link, a:visited {color:#000000;} a:visited {text-decoration:underline;}
+.side-menu .hello a:hover{
+    color:#bdd42d;   
+}
+a:link, a:visited {color:#000000;} a:visited {text-decoration:underline;} 
 
-.hello{
+
+.side-menu .hello{
     border-bottom:2pt solid #bdd42d;
 }
-.phone-no{
+.side-menu .phone-no{
     font-size:.75em;
     padding-top:1em;
-    color:#bdd42d;
-    
+   }
+
+.side-menu .phone-no a:hover{
+    color:#bdd42d; 
 }
-.third-nav{
+    
+
+    
+
+.side-menu .third-nav{
     position:absolute;
     top:30em;
     left:25em;
     font-size:1em;
-       
+    color:#bdd42d;   
 }
 
-.third-nav i{
+.side-menu .third-nav i{
     padding-right:1.25em;  
 
 }
-.slovensky{
+
+.side-menu .third-nav a:hover{
+    color:#bdd42d;
+}
+.side-menu .slovensky{
     position:absolute;
     top:8em;
     right:6em;
@@ -714,6 +799,41 @@ a:link, a:visited {color:#000000;} a:visited {text-decoration:underline;}
     font-family:'Roboto', sans-serif;
     border-bottom:1px solid #bdd42d;
 }
+
+.side-menu .slovensky a:hover{
+    color:#bdd42d;
+}
+/*Hover Effect*/
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #bdd42d;
+  height: 1px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+/*Ending Hover Effect*/
 canvas{ 
     width:450px;
     height:80px;
