@@ -584,6 +584,42 @@ ul {
    
 }
 
+/*Footer Section*/
+
+footer{
+    height: 490px;
+    background-color:#000;
+    transform:translateY(-7%);
+    overflow:hidden;
+    text-align:center;
+    color:#ffff; 
+    position:relative;
+}
+
+footer h2{
+    padding-top:110px;
+    font-size:1.75em;;
+    
+}
+
+footer .divider{
+    height: 1px;
+    border: 0;
+    background-color: #A9A9A9;
+    width: 80%;
+    position:absolute;
+    top:350px;
+    left:100px;
+    
+}
+footer p{
+    position:absolute;
+    padding-top:200px;
+    font-size:0.75em;
+    width:450px;
+    left:340px;
+}
+
 
 /*Nav-open*/
 
