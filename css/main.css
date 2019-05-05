@@ -477,6 +477,113 @@ ul {
 .line{
     border-bottom:1px solid #A9A9A9;
 }
+/*Let's start section*/
+
+.contact {
+    width:100%;
+    height:750px;
+    background-color:#080808;
+    position:relative;
+    
+}
+.contact p{
+    font-size:1.25em;
+    text-align:center;
+    padding-top:150px;
+    color:	#484848;
+}
+
+.contact h2{
+    text-align:center;
+    font-size:4em;
+    color:#ffff;
+}
+.top-nav{
+    color:white;
+    
+}
+
+.contact .hello-art{
+    font-family:'Roboto', sans-serif;
+    color:#ffffff;
+    font-size:.75em;
+    position:absolute;
+    top:388px;
+    left:110px;
+    border-bottom:1px solid #ffff;
+    
+}
+
+.rect{
+    width:160px;
+    height:70px;
+    background-color: transparent;
+    border: 1px solid #A9A9A9;
+    border-radius: 50px;
+    position:absolute;
+    top:375px;
+    left:50%;
+    transform:translateX(-45%);
+    
+}
+
+.contact .get-a-quote {
+    position:absolute;
+    top:395px;
+    left:50%;
+    transform:translateX(-45%);
+    font-size:.5em;
+    font-family:'Roboto', sans-serif;
+    color:#ffff;
+}
+
+.contact .univ-phone{
+    position:absolute;
+    top:380px;
+    left:800px;
+    font-size:.5em;
+    padding-bottom:.5em;
+    font-family:'Roboto', sans-serif;
+    color:#ffff;
+    border-bottom:1px solid #ffff;
+}
+.contact .prague{
+    position:absolute;
+    top:430px;
+    left:800px;
+    font-size:.35em;
+}
+.contact .divider{
+    height: 1px;
+    border: 0;
+    color: #333;
+    background-color: #A9A9A9;
+    width: 80%;
+    position:absolute;
+    top:570px;
+    left:100px;
+    
+}
+
+.contact .bottom-nav{
+    position:absolute;
+    top:38em;
+    left:25em;
+    font-size:1em;
+       
+}
+
+.contact .bottom-nav i{
+    padding-right:2em; 
+    text-decoration:none;
+    color:#ffffff;
+     display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+   
+}
+
 
 /*Nav-open*/
 
@@ -518,9 +625,9 @@ ul {
 }
 
 #main-nav{
-    padding-left: 1.25em;
+    padding-left: 1em;
     padding-top: 4em;
-    font-size:3.5em;
+    font-size:4em;
     font-family:'Roboto', sans-serif;
     color:#000000;
     text-decoration: none;
@@ -530,8 +637,8 @@ ul {
 
 .second-nav{
     position:absolute;
-    top:8em;
-    left:15em;
+    top:9.5em;
+    left:12.75em;
     font-size:2em;
     font-family:'Roboto', sans-serif;
     color:#bdd42d;
@@ -551,16 +658,56 @@ a:link, a:visited {color:#000000;} a:visited {text-decoration:underline;}
 }
 .third-nav{
     position:absolute;
-    top:10em;
-    left:10em;
+    top:30em;
+    left:25em;
     font-size:1em;
        
 }
 
-third-nav li{
-    padding-right:3em;  
+.third-nav i{
+    padding-right:1.25em;  
 
 }
+.slovensky{
+    position:absolute;
+    top:8em;
+    right:6em;
+    padding-bottom:.75em;
+    font-size:.75em;
+    color:#bdd42d;
+    font-family:'Roboto', sans-serif;
+    border-bottom:1px solid #bdd42d;
+}
+canvas{ 
+    width:450px;
+    height:80px;
+    background-color:#bdd42d;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    color:#ffffff;
+    
+    
+         }
+.girl-quote{
+    position:absolute;
+    height:180px;
+    bottom:0px;
+    right:60px;
+    
+}
+.fourth-nav a{
+    position:absolute;
+    bottom:25px;
+    right:300px;
+    z-index:2000;
+    color:#ffffff;
+    font-family:'Roboto', sans-serif;
+    font-size:1.25em;
+    
+}
+
+
 
  /* ==========================================================================
    Helper classes
